@@ -1,6 +1,6 @@
 ---
 icon: wordpress
-cover: ../.gitbook/assets/woocomerce.png
+cover: ../../.gitbook/assets/woocomerce.png
 coverY: 0
 ---
 
@@ -10,7 +10,21 @@ Empower your WordPress online store with the PayLater WooCommerce Plugin, a cutt
 
 ## Download Plugin
 
-{% file src="../.gitbook/assets/paylater.zip" %}
+#### Version 2.0
+
+**Release Notes:** Full-Width Admin Branding, and Advanced PDP/PLP Widget Integration, [Click Here](release-notes.md#release-notes-v2.0-january-28-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/paylater_v2.0.zip" %}
+
+#### Version 1.0
+
+**Release Notes:** Initial Launch, Core Payment Gateway Integration, [Click Here](release-notes.md#release-notes-v1.0-june-28-2025)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/paylater.zip" %}
 
 ## Installation
 
@@ -30,30 +44,34 @@ Automatic installation is the easiest option as WordPress handles the file trans
 * Select the downloaded  &#x20;PayLater  &#x20;plugin zip file.
 * Click  &#x20;Install Now  &#x20;and then  &#x20;Activate
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Log in to your WordPress admin dashboard &#x26; Navigate to Plugins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Log in to your WordPress admin dashboard &#x26; Navigate to Plugins</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Click on Upload Plugin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Click on Upload Plugin</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Select the downloaded PayLater plugin zip file.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Select the downloaded PayLater plugin zip file.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Click Install Now and then Activate</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Click Install Now and then Activate</p></figcaption></figure>
 
 ## Method 2: Manual Installation
 
 The manual installation method involves downloading our plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains&#x20;[Manage Plugins](https://wordpress.org/documentation/article/manage-plugins/#Manual_Plugin_Installation)
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>After Uploading via FTP, you can see PayLater Payment Gateway in Plugin List</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>After Uploading via FTP, you can see PayLater Payment Gateway in Plugin List</p></figcaption></figure>
 
 ## Configurations
 
 * Once activated, navigate to  &#x20;**WooCommerce -> Settings -> Payments**
 * Locate  &#x20;PayLater  &#x20;in the list of available payment gateways and click on the  &#x20;Manage  &#x20;button.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-* Enter your  &#x20;Merchant ID  &#x20;and  &#x20;Outlet ID  &#x20;provided [here](../#test-credentials). These credentials are crucial for secure communication between your store and the PayLater platform.
+* Enter your  &#x20;Merchant ID  &#x20;and  &#x20;Outlet ID  &#x20;provided [here](../../#test-credentials). These credentials are crucial for secure communication between your store and the PayLater platform.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-01-28 10-57-28.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-01-28 10-58-23.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-01-28 10-59-16.png" alt=""><figcaption></figcaption></figure>
 
 * Click  &#x20;Save Changes  &#x20;to complete the configuration&#x20;
 

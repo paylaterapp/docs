@@ -13,8 +13,10 @@
   * [💸 Refund API](getting-started/quickstart/refund-api.md)
   * [💸 Partial Refund](getting-started/quickstart/partial-refund.md)
   * [📃 Webhook Integration](getting-started/quickstart/webhook-integration.md)
-* [Magento](getting-started/publish-your-docs.md)
-* [WooCommerce](getting-started/woocommerce.md)
+* [Magento](getting-started/publish-your-docs/README.md)
+  * [Release Notes](getting-started/publish-your-docs/release-notes.md)
+* [WooCommerce](getting-started/woocommerce/README.md)
+  * [Release Notes](getting-started/woocommerce/release-notes.md)
 * [Shopify](getting-started/shopify.md)
 
 ***

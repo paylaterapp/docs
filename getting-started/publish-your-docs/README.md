@@ -1,6 +1,6 @@
 ---
 icon: magento
-cover: ../.gitbook/assets/magento.png
+cover: ../../.gitbook/assets/magento.png
 coverY: 0
 ---
 
@@ -10,7 +10,21 @@ The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Late
 
 ## Download Plugin
 
-{% file src="../.gitbook/assets/Paylaterpay_v1.2.zip" %}
+#### **Version 1.3**
+
+**Release Notes:** Technical Refactor, UI Enhancements, and Magento 2.4.7 Compatibility, [Click Here](release-notes.md#release-notes-v1.3-january-28-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/PayLaterpay_v1.3 (1).zip" %}
+
+#### **Version 1.2**
+
+**Release Notes:** Initial Launch, Core Payment Gateway Integration, [Click Here](release-notes.md#release-notes-v1.2-march-28-2025)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/Paylaterpay_v1.2 (2).zip" %}
 
 ## Manual Setup
 
@@ -32,7 +46,7 @@ php bin/magento setup:static-content:deploy
 
 Login to your Magento Admin Panel.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Admin Configurations
 
@@ -42,7 +56,7 @@ PayLater&#x20;payment gateway according to your preferences.
 * Log in to your Magento Admin Panel.
 * Navigate to  &#x20;Stores > Configuration > Sales > Payment Methods  &#x20;and expand  &#x20;OTHER PAYMENT METHODS  &#x20;tab. You will see  &#x20;PayLater  &#x20;Show Now Pay Later option.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Payment Settings
 
@@ -51,7 +65,9 @@ PayLater&#x20;payment gateway according to your preferences.
 * You need to get your  &#x20;Merchant ID and Outlet ID  &#x20;from your  &#x20;PayLater Account Manager
 * Enter your  &#x20;Merchant ID  &#x20;and  &#x20;Outlet ID  &#x20;provided here. These credentials are crucial for secure communication between your store and the PayLater platform.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/admin 1.png" alt=""><figcaption></figcaption></figure>
 
 * Save the configuration and  &#x20;clear the cache  .
 
