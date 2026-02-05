@@ -44,6 +44,18 @@ php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 ```
 
+#### Frontend Widgets
+
+PLP Product List Page
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-02-02 17-01-18.png" alt=""><figcaption></figcaption></figure>
+
+PDP Product Detail Page
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-02-02 17-01-45.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-02-02 17-08-29.png" alt=""><figcaption></figcaption></figure>
+
 Login to your Magento Admin Panel.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

@@ -34,6 +34,18 @@ Paylater empowers merchants to offer the popular Buy Now, Pay Later (BNPL) payme
 
 Ensure you have a&#x20;WordPress Website&#x20;with the&#x20;WooCommerce plugin&#x20;installed and activated.
 
+### Frontend Widgets:
+
+PLP Product List Page
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-02-02 17-01-18.png" alt=""><figcaption></figcaption></figure>
+
+PDP Product Detail Page
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-02-02 17-01-45.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2026-02-02 17-08-29.png" alt=""><figcaption></figcaption></figure>
+
 ## Method 1: Automatic Installation
 
 Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser
