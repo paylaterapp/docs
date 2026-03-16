@@ -6,7 +6,7 @@ Track the real-time status of your payment with ease. Whether it's pending, succ
 
 ### Sandbox
 
-`GET https://connect-sandbox.paylaterapp.com/api/paylater/merchant-portal/web-checkout/status`
+`GET https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/status`
 
 ### Production
 

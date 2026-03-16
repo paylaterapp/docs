@@ -6,7 +6,7 @@ Quickly check if a customer is a registered [PayLater ](https://paylaterapp.com/
 
 ### Sandbox
 
-`GET https://connect-sandbox.paylaterapp.com/api/paylater/merchant-portal/web-checkout/shopper`
+`GET https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/shopper`
 
 ### Production
 

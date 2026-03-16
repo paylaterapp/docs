@@ -6,7 +6,7 @@ Retrieve full transaction details using a specific Order ID. This endpoint provi
 
 ### Sandbox
 
-`GET https://connect-sandbox.paylaterapp.com/api/paylater/merchant-portal/web-checkout/transactions/{order_id}?merchantId={{merchantID}}`
+`GET https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/transactions/{order_id}?merchantId={{merchantID}}`
 
 ### Production
 

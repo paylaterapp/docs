@@ -6,7 +6,7 @@ This API allows you to generate a secure, one-time [PayLater ](https://paylatera
 
 ### Sandbox
 
-`POST https://connect-sandbox.paylaterapp.com/api/paylater/merchant-portal/web-checkout/`&#x20;
+`POST https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/`&#x20;
 
 ### Production
 
@@ -24,7 +24,7 @@ This API allows you to generate a secure, one-time [PayLater ](https://paylatera
 ## Sample cURL
 
 ```
-curl --location 'https://connect-sandbox.paylaterapp.com/api/paylater/merchant-portal/web-checkout/' \
+curl --location 'https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/' \
 --header 'x-api-key: a4f9feba-19dd-47b7-8d09-268a25c44a35' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -42,7 +42,7 @@ curl --location 'https://connect-sandbox.paylaterapp.com/api/paylater/merchant-p
 
 ```
 {
-  "paymentLinkUrl": "https://payments-sandbox.paylaterapp.com/paylink/uuid?token=xyz&channel=web"
+  "paymentLinkUrl": "https://payments.uat.paylaterapp.com/paylink/uuid?token=xyz&channel=web"
 }
 ```
 

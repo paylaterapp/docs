@@ -6,7 +6,7 @@ Initiate a partial refund for a completed transaction using the Partial Refund A
 
 ### Sandbox
 
-`POST https://connect-sandbox.paylaterapp.com/api/paylater/merchant-portal/web-checkout/refund/partial`
+`POST https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/refund/partial`
 
 ### Production
 
