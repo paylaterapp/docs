@@ -6,7 +6,7 @@ This API allows you to generate a secure, one-time [PayLater ](https://paylatera
 
 ### Sandbox
 
-`POST https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/`&#x20;
+`POST https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/`&#x20;
 
 ### Production
 

@@ -6,7 +6,7 @@ Initiate a full refund for a completed transaction using the Refund API. This en
 
 ### Sandbox
 
-`GET https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/refund`
+`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/refund`
 
 ### Production
 

@@ -6,7 +6,7 @@ Fetch a comprehensive list of all transactions linked to your account. Filter by
 
 ### Sandbox
 
-`GET https://`connect.uat.paylaterapp`.com/api/paylater/merchant-portal/web-checkout/transactions`
+`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/transactions`&#x20;
 
 ### Production
 
