@@ -4,7 +4,7 @@ cover: .gitbook/assets/1_PAYLATER_BANNER_1710X525_HOME.png
 coverY: 0
 ---
 
-# Get Started
+# Welcome to PayLater
 
 Welcome to the [PayLater](https://paylaterapp.com/) Integration Documentation — your gateway to embedding seamless Buy Now, Pay Later (BNPL) experiences into your online store or application.
 
@@ -14,11 +14,13 @@ Welcome to the [PayLater](https://paylaterapp.com/) Integration Documentation �
 
 You can integrate [PayLater ](https://paylaterapp.com/)using one of the following methods:
 
-* **API Integration** – Ideal for custom platforms, mobile apps, and businesses seeking full control over the user experience.&#x20;
+* [**API Integration**](getting-started/quickstart/) – Ideal for custom platforms, mobile apps, and businesses seeking full control over the user experience.&#x20;
   * **Mobile App Integration:** For integrating to your your native mobile application, you may need to active camera access option "onRequestPermission Callback" to process the transaction.&#x20;
-* **Magento Plugin** – Easily enable [PayLater](https://paylaterapp.com/) on your Magento store with minimal configuration.
-* **WooCommerce Plugin** – Connect [PayLater ](https://paylaterapp.com/)to your WordPress-based WooCommerce site in just a few clicks.
-* **Shopify** – Activate [PayLater ](https://paylaterapp.com/)for Shopify to implement PayLater as a payment option
+* [**Magento Plugin**](getting-started/publish-your-docs/) – Easily enable [PayLater](https://paylaterapp.com/) on your Magento store with minimal configuration.
+* [**WooCommerce Plugin**](getting-started/woocommerce/) – Connect [PayLater ](https://paylaterapp.com/)to your WordPress-based WooCommerce site in just a few clicks.
+* [**Shopify**](getting-started/shopify.md) – Activate [PayLater ](https://paylaterapp.com/)for Shopify to implement PayLater as a payment option
+* [**Odoo Plugin**](getting-started/odoo/) – Connect [PayLater ](https://paylaterapp.com/)to your Odoo Commerce site in just a few clicks.
+* [**OpenCart Plugin**](getting-started/opencart/) – Connect [PayLater ](https://paylaterapp.com/)to your OpenCart Commerce site in just a few clicks.
 
 This documentation covers everything you need — from authentication and transaction flows to refund handling and settlement reports. Whether you're a seasoned developer or just starting out, we’ve got you covered.
 
@@ -61,4 +63,5 @@ Please use the below test accounts. The OTP you can use is 1234
 
 ## Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>API Integration</strong></td><td>Full control. Flexible integration. Built for scale.</td><td></td><td><a href="getting-started/quickstart/">quickstart</a></td><td><a href=".gitbook/assets/api.png">api.png</a></td></tr><tr><td><strong>Magento</strong></td><td>Enable PayLater at checkout in minutes</td><td></td><td><a href="/broken/pages/7aUFmnCMx9m4smGncsXL">Broken link</a></td><td><a href=".gitbook/assets/magento.png">magento.png</a></td></tr><tr><td><strong>WooCommerce</strong></td><td>Install. Activate. Offer PayLater — it’s that easy.</td><td></td><td><a href="getting-started/publish-your-docs/">publish-your-docs</a></td><td><a href=".gitbook/assets/woocomerce.png">woocomerce.png</a></td></tr><tr><td>Shopify</td><td>Activate PayLater on your shopify checkout.</td><td></td><td><a href="getting-started/shopify.md">shopify.md</a></td><td><a href=".gitbook/assets/preview_0.png">preview_0.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>API Integration</strong></td><td>Full control. Flexible integration. Built for scale.</td><td></td><td><a href="getting-started/quickstart/">quickstart</a></td><td data-object-fit="contain"><a href=".gitbook/assets/api.png">api.png</a></td></tr><tr><td><strong>Magento</strong></td><td>Enable PayLater at checkout in minutes</td><td></td><td><a href="getting-started/publish-your-docs/">publish-your-docs</a></td><td data-object-fit="contain"><a href=".gitbook/assets/magento.png">magento.png</a></td></tr><tr><td><strong>WooCommerce</strong></td><td>Install. Activate. Offer PayLater — it’s that easy.</td><td></td><td><a href="getting-started/woocommerce/">woocommerce</a></td><td data-object-fit="contain"><a href=".gitbook/assets/woocomerce.png">woocomerce.png</a></td></tr><tr><td>Shopify</td><td>Activate PayLater on your shopify checkout.</td><td></td><td><a href="getting-started/shopify.md">shopify.md</a></td><td data-object-fit="contain"><a href=".gitbook/assets/preview_0.png">preview_0.png</a></td></tr><tr><td>Odoo</td><td>Install. Activate. Offer PayLater — it’s that easy.</td><td></td><td><a href="getting-started/odoo/">odoo</a></td><td data-object-fit="contain"><a href=".gitbook/assets/Official_Odoo_logo.svg.png">Official_Odoo_logo.svg.png</a></td></tr><tr><td>Open Cart</td><td>Install. Activate. Offer PayLater — it’s that easy.</td><td></td><td><a href="getting-started/opencart/">opencart</a></td><td data-object-fit="contain"><a href=".gitbook/assets/OpenCart_logo.svg.png">OpenCart_logo.svg.png</a></td></tr></tbody></table>
+

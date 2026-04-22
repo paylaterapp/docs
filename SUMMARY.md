@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Get Started](README.md)
+* [Welcome to PayLater](README.md)
 
 ## Getting Started
 
@@ -18,6 +18,10 @@
 * [WooCommerce](getting-started/woocommerce/README.md)
   * [Release Notes](getting-started/woocommerce/release-notes.md)
 * [Shopify](getting-started/shopify.md)
+* [Odoo](getting-started/odoo/README.md)
+  * [Release Notes](getting-started/odoo/release-notes.md)
+* [OpenCart](getting-started/opencart/README.md)
+  * [Release Notes](getting-started/opencart/release-notes.md)
 
 ***
 

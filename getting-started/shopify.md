@@ -3,23 +3,6 @@ icon: shopify
 cover: https://cdnmp.plentymarkets.com/20837/meta/images/preview_0.png
 coverY: 60.490789473684224
 coverHeight: 269
-layout:
-  width: default
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Shopify
