@@ -10,6 +10,14 @@ The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Late
 
 ## Download Plugin
 
+#### **Version 2.0**
+
+**Release Notes:** Reduce JS Loading, and Magento 2.4.8 Compatibility, [Click Here](release-notes.md#release-notes-v2.0-april-30-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/PayLaterpay_v2.0.zip" %}
+
 #### **Version 1.3**
 
 **Release Notes:** Technical Refactor, UI Enhancements, and Magento 2.4.7 Compatibility, [Click Here](release-notes.md#release-notes-v1.3-january-28-2026)

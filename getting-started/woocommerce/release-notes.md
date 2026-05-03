@@ -4,6 +4,18 @@
 
 <details>
 
+<summary>Release Notes V2.1 (April 30, 2026)</summary>
+
+* 🛠️ Architectural Improvements
+  * Callback orderId is now bound to the order's stored reference.
+  * Order is rejected if it was not initiated through PayLater.
+  * All redirects switched to wp\_safe\_redirect() to prevent off-host redirection.
+  * Error field parsing aligned with the gateway contract.
+
+</details>
+
+<details>
+
 <summary>Release Notes V2.0 (January 28, 2026)</summary>
 
 * 🌟 New "PayLater" Features
@@ -41,3 +53,4 @@
   * Mobile Optimized
 
 </details>
+

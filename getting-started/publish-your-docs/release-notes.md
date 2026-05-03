@@ -2,6 +2,20 @@
 
 <details>
 
+<summary>Release Notes v2.0 (April 30, 2026)</summary>
+
+* 🛠 Technical Refactor & Compatibility
+  * The order lifecycle has been refactored to match the standard Magento redirect-gateway pattern
+  * On the success-return URL, the module calls PayLater's web-checkout/status API and only marks the order
+  * **Authorization & Capture**
+* ⚙️ Reconciliation Cron
+  * A new paylater\_reconcile\_pending\_orders cron runs every 10 minutes as a safety net for redirect-flow edge cases
+  * For each pending\_payment PayLater order older than 3 minutes, queries web-checkout/status.
+
+</details>
+
+<details>
+
 <summary>Release Notes v1.3 (January 28, 2026)</summary>
 
 * 🎨 Design & UX Enhancements
