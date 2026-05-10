@@ -6,6 +6,7 @@
 
 * [⚙️ API GUIDE](getting-started/quickstart/README.md)
   * [💰 Generate Payment Link](getting-started/quickstart/generate-payment-link.md)
+  * [💰 Request to Pay](getting-started/quickstart/request-to-pay.md)
   * [🏳️ Check Payment Status](getting-started/quickstart/check-payment-status.md)
   * [👥 Get Shopper Information](getting-started/quickstart/get-shopper-information.md)
   * [💵 Get Transaction by Order ID](getting-started/quickstart/get-transaction-by-order-id.md)
