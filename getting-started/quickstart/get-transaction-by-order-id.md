@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 💵 Get Transaction by Order ID
 
 Retrieve full transaction details using a specific Order ID. This endpoint provides real-time insights into the payment status, shopper info, transaction amount, and timestamps—ideal for quick lookups, reconciliations, or support queries.

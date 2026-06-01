@@ -2,6 +2,27 @@
 icon: wordpress
 cover: ../../.gitbook/assets/woocomerce.png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # WooCommerce
@@ -9,6 +30,14 @@ coverY: 0
 Empower your WordPress online store with the PayLater WooCommerce Plugin, a cutting-edge solution designed to enhance the purchasing journey for both merchants and customers. This seamlessly integrated plugin opens up a world of possibilities, allowing merchants to offer a convenient and flexible PayLater option at checkout.
 
 ## Download Plugin
+
+#### Version 3.0
+
+**Release Notes:** Webhook, Partial Refund, Full Refund, [Click Here](release-notes.md#release-notes-v3.0-may-17-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/paylater_v3.0.zip" %}
 
 #### Version 2.1
 

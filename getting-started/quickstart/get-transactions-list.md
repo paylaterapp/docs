@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 💲 Get Transactions List
 
 Fetch a comprehensive list of all transactions linked to your account. Filter by date, status, or shopper to easily monitor activity, track performance, and streamline reconciliation—all in one place.

@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 👥 Get Shopper Information
 
 Quickly check if a customer is a registered [PayLater ](https://paylaterapp.com/)shopper. This tool returns their shopper status along with their assigned credit limit and available balance—perfect for verifying eligibility before proceeding with a transaction.

@@ -5,6 +5,27 @@ description: >-
   Designed with flexibility and performance in mind, our RESTf
 cover: ../../.gitbook/assets/api (1).png
 coverY: -38.84210526315789
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # ⚙️ API GUIDE

@@ -2,6 +2,27 @@
 icon: magento
 cover: ../../.gitbook/assets/magento.png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Magento
@@ -9,6 +30,14 @@ coverY: 0
 The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Later" (BNPL) functionality into their Magento2 stores,&#x20;providing customers with flexible payment options. This comprehensive guide will walk you through the step-by-step installation and&#x20;configuration process for seamless integration.
 
 ## Download Plugin
+
+#### **Version 3.0**
+
+**Release Notes:** Webhook, Partail Refund, Full Refund, [Click Here](release-notes.md#release-notes-v3.0-may-17-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/PayLaterpay-v3.0.zip" %}
 
 #### **Version 2.0**
 

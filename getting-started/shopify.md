@@ -3,6 +3,27 @@ icon: shopify
 cover: https://cdnmp.plentymarkets.com/20837/meta/images/preview_0.png
 coverY: 60.490789473684224
 coverHeight: 269
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Shopify
@@ -38,55 +59,7 @@ The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Late
 
 
 
-### Step 2: Create the PayLater Private App
-
-* In Settings, go to “Apps and sales channel“ in the left menu and then click on the Develop apps button on the top.
-
-<figure><img src="../.gitbook/assets/6 (3).png" alt=""><figcaption></figcaption></figure>
-
-* Click on “Allow legacy custom app development“.
-
-<figure><img src="../.gitbook/assets/7 (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/8 (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/9 (3).png" alt=""><figcaption></figcaption></figure>
-
-* In the “Create an app” form, Set “PayLater Payment” as App name.
-
-<figure><img src="../.gitbook/assets/10 (3).png" alt=""><figcaption></figcaption></figure>
-
-* You will be redirected to the below screen. Navigate to “Configuration”.
-
-<figure><img src="../.gitbook/assets/11 (3).png" alt=""><figcaption></figcaption></figure>
-
-* Under “Configuration”, click on “Configure” button next to “Admin API integration” to add scope permissions.
-
-<figure><img src="../.gitbook/assets/12 (3).png" alt=""><figcaption></figcaption></figure>
-
-* Scroll down and modify the following access in each respective dropdown. You do not need to modify any other dropdowns.
-  * Orders (Read and Write)
-  * Fulfillment Services (Read and Write)
-
-<figure><img src="../.gitbook/assets/13 (3).png" alt=""><figcaption></figcaption></figure>
-
-* Click "Save" button. This will add scope configuration for admin
-
-<figure><img src="../.gitbook/assets/14 (3).png" alt=""><figcaption></figcaption></figure>
-
-* Now go to “API Credentials” section in the “Apps and sales channel” navigation and click on “Install app” button. It will prompt for confirmation
-
-<figure><img src="../.gitbook/assets/15 (3).png" alt=""><figcaption></figcaption></figure>
-
-* To protect your data, you’ll only be able to reveal your Admin API token once. Copy and save your Admin API access token in a secure place
-
-<figure><img src="../.gitbook/assets/16 (3).png" alt=""><figcaption></figcaption></figure>
-
-* Copy the API Key and  Api secret key and save
-
-
-
-### Step 3: Setting Webhook
+### Step 2: Setting Webhook
 
 * In Settings, go to “Notifications“ in the left menu and then click on the Webhooks.
 
@@ -106,9 +79,15 @@ The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Late
 
 
 
-### Step 4 : Linking Shopify to PayLater Backend App
+### Step 3: Linking Shopify to PayLater Backend App
 
-* In Settings, go to “Apps and sales channels“ in the left menu and then click on the “Build apps in Dev Dashboard”
+* In Settings, go to “Apps and sales channel“ in the left menu and then click on the Develop apps button on the top.
+*
+
+    <figure><img src="../.gitbook/assets/7 (3).png" alt=""><figcaption></figcaption></figure>
+*
+
+    <figure><img src="../.gitbook/assets/8 (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/20 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -150,8 +129,8 @@ The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Late
 * Save all the keys you receive during this all process.
 *   Send following keys to your account manager to activate your store for payments.
 
-    * Shop Url (store.com)
-    * Access Token (shpat\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*)
+    * Shop Url (myshopfy.com)
+    * Access Token (shpat\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*) or Client ID
     * Shopify API Secret (shpss\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*)
 
 

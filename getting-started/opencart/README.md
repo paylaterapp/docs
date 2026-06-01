@@ -21,6 +21,8 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # OpenCart
@@ -29,9 +31,17 @@ Empower your OpenCart online store with the PayLater OpenCart Plugin, a cutting-
 
 ## Download Plugin
 
+#### Version 2.0
+
+**Release Notes:** Webhook, Partial Refund, Full Refund, [Click Here](release-notes.md#release-notes-v2.0-may-17-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/paylater.ocmod (1).zip" %}
+
 #### Version 1.0
 
-**Release Notes:** Initial Launch, Core Payment Gateway Integration, [Click Here](../woocommerce/release-notes.md#release-notes-v1.0-june-28-2025)
+**Release Notes:** Initial Launch, Core Payment Gateway Integration, [Click Here](release-notes.md#release-notes-v1.0-april-24-2026)
 
 **Plugin:**&#x20;
 

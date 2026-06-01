@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 🏳️ Check Payment Status
 
 Track the real-time status of your payment with ease. Whether it's pending, successful, or failed, this page gives you instant visibility into where your transaction stands. No more guessing—just clear, up-to-date information to keep you in control.
@@ -5,8 +26,6 @@ Track the real-time status of your payment with ease. Whether it's pending, succ
 ## Endpoint
 
 ### Sandbox
-
-
 
 `GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/status`&#x20;
 

@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 💰 Generate Payment Link
 
 This API allows you to generate a secure, one-time [PayLater ](https://paylaterapp.com/)payment link for a specific order. The response includes a URL that must be used to **redirect the customer to complete their** [**PayLater** ](https://paylaterapp.com/)**transaction**. Ideal for web and app checkouts where you want to initiate the [PayLater ](https://paylaterapp.com/)flow externally and return to your platform post-payment.

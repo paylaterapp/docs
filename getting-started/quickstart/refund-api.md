@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 💸 Refund API
 
 Initiate a full refund for a completed transaction using the Refund API. This endpoint allows you to seamlessly return funds to the shopper while keeping records updated for reconciliation and reporting purposes.

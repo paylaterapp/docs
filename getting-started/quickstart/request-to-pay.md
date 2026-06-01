@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 💰 Request to Pay
 
 The Request to Pay API allows merchants to initiate a payment request directly from the merchant portal or POS to a shopper's PayLater mobile app. When called, the API sends a push notification to the shopper prompting them to review and approve the transaction within their app, where they can select their preferred installment plan and complete the purchase. This endpoint is designed for in-store, phone order, and remote checkout scenarios where the shopper is not transacting through a merchant's website.
