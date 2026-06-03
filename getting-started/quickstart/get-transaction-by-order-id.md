@@ -27,25 +27,25 @@ Retrieve full transaction details using a specific Order ID. This endpoint provi
 
 ### Sandbox
 
-`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/transactions/{order_id}?merchantId={{merchantID}}`&#x20;
+`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/transactions/{order_id}`&#x20;
 
 ### Production
 
-`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/web-checkout/transactions/{order_id}?merchantId={{merchantID}}`&#x20;
+`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/transactions/{order_id}`&#x20;
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
-
-## Query Parameters
-
-| merchantId | String | ✅ | Your merchant ID         |
-| ---------- | ------ | - | ------------------------ |
-| order\_id  | String | ✅ | Merchant Unique order ID |
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
 
 ## Success Response
 
 ```
+{
+    "message": "Order not initiated",
+    "status": 0
+}
+
+
 {
   "id": 10129,
   "customer": {

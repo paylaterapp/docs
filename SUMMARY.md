@@ -5,6 +5,7 @@
 ## Getting Started
 
 * [⚙️ API GUIDE](getting-started/quickstart/README.md)
+  * [🔑 Get Access Token (Client Credentials)](getting-started/quickstart/get-access-token-client-credentials.md)
   * [💰 Generate Payment Link](getting-started/quickstart/generate-payment-link.md)
   * [💰 Request to Pay](getting-started/quickstart/request-to-pay.md)
   * [🏳️ Check Payment Status](getting-started/quickstart/check-payment-status.md)

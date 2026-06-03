@@ -31,6 +31,14 @@ The PayLater plugin offers merchants the ability to integrate "Buy Now, Pay Late
 
 ## Download Plugin
 
+#### **Version 4.0**
+
+**Release Notes:** Authorization Security Update, [Click Here](release-notes.md#release-notes-v4.0-june-07-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/PayLaterpay-v4.0.zip" %}
+
 #### **Version 3.0**
 
 **Release Notes:** Webhook, Partail Refund, Full Refund, [Click Here](release-notes.md#release-notes-v3.0-may-17-2026)

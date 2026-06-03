@@ -4,6 +4,22 @@
 
 <details>
 
+<summary>Release Notes V3.0 (June 04, 2026)</summary>
+
+* ✨ OAuth2 Bearer authentication
+  * Authentication switched from x-api-key to OAuth2 Bearer
+  * Endpoints moved to /v2/web-checkout.
+  * Payload field names are snake\_case. outletId → outlet\_id, orderId → order\_id, successRedirectUrl → success\_redirect\_url, failRedirectUrl → fail\_redirect\_url.
+  * expiry\_duration is now required on create-payment-link.
+  * Full and partial refunds collapse onto one endpoint.
+* 🔐 Admin validation
+  * Admin settings rearranged. The Test API Key and Live API Key fields are removed.
+  * New fields added: Test Client ID, Test Client Secret, Live Client ID, Live Client Secret.
+
+</details>
+
+<details>
+
 <summary>Release Notes V2.0 (May 17, 2026)</summary>
 
 * ✨ New features

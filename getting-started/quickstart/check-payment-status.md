@@ -27,25 +27,30 @@ Track the real-time status of your payment with ease. Whether it's pending, succ
 
 ### Sandbox
 
-`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/status`&#x20;
+`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/status`&#x20;
 
 ### Production
 
-`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/web-checkout/status`&#x20;
+`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/status`&#x20;
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
 
 ## Query Parameters
 
-| orderId    | String | ✅ | Unique order ID  |
-| ---------- | ------ | - | ---------------- |
-| merchantId | String | ✅ | Your merchant ID |
+| Parameter | Type   | Required | Description     |
+| --------- | ------ | -------- | --------------- |
+| order\_id | String | ✅        | Unique order ID |
 
 ## Success Response (Statuses)
 
 ```
+{
+    "message": "Order not initiated",
+    "status": 0
+}
+
 {
   "payLaterOrderId": "PL1744792493935483",
   "message": "pending",
@@ -78,6 +83,7 @@ Track the real-time status of your payment with ease. Whether it's pending, succ
 
 ### **Status Codes:**
 
+* `0` = customer didn't proceed
 * `1` = pending
 * `2` = success
 * `3` = failed

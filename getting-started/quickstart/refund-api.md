@@ -27,25 +27,26 @@ Initiate a full refund for a completed transaction using the Refund API. This en
 
 ### Sandbox
 
-`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/refund`
+`POST https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/refund`
 
 ### Production
 
-`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/web-checkout/refund`
+`POST https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/refund`
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
+* `Content-Type`: `application/json`
 
-## Query Parameters
+## Request Body
 
-<table data-header-hidden><thead><tr><th></th><th></th><th width="160.8203125"></th><th></th></tr></thead><tbody><tr><td>Parameter</td><td>Type</td><td>Required</td><td>Description</td></tr><tr><td>merchantId</td><td>String</td><td>✅</td><td>Your merchant ID</td></tr><tr><td>transactionReference</td><td>String</td><td>✅</td><td>Merchant Order ID</td></tr><tr><td>transactionType</td><td>String</td><td>✅</td><td>Must be <code>DOWN_PAYMENT</code></td></tr></tbody></table>
+<table><thead><tr><th>Parameter</th><th>Type</th><th width="160.8203125">Required</th><th>Description</th></tr></thead><tbody><tr><td>order_id</td><td>String</td><td>✅</td><td>Merchant Order ID</td></tr></tbody></table>
 
 ## Success Response
 
 ```
 {
-  "message": "Refund request accepted for reference Id: PL1740851963584963"
+  "message": "Refund request accepted for reference Id: ORD-TEST-1"
 }
 ```
 
@@ -54,10 +55,6 @@ Initiate a full refund for a completed transaction using the Refund API. This en
 ```
 {
   "error": "Transaction Reference is required"
-}
-
-{
-  "error": "Transaction Type is required"
 }
 
 {
@@ -82,11 +79,6 @@ Initiate a full refund for a completed transaction using the Refund API. This en
 {
   "error": "Refund Error",
   "message": "Invalid Transaction Reference."
-}
-
-{
-  "error": "Refund Error",
-  "message": "Invalid Transaction type."
 }
 ```
 

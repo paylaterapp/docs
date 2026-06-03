@@ -49,8 +49,8 @@ Let’s dive in and get you up and running in no time.
 
 ## Test Credentials
 
-**MerchantID:** 138\
-**API Key:** a4f9feba-19dd-47b7-8d09-268a25c44a35\
+**Client ID:** merchant-138\
+**Client Secret:** M6Xjszdtd8X2XivLmUvS9Pa7Hm0JeA6g\
 **OutLet ID:** 1000000061
 
 ## Test Shopper Accounts

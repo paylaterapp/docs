@@ -31,6 +31,14 @@ Empower your WordPress online store with the PayLater WooCommerce Plugin, a cutt
 
 ## Download Plugin
 
+#### Version 4.0
+
+**Release Notes:** Authorization Security Update, [Click Here](release-notes.md#release-notes-v4.0-june-07-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/paylater_v4.0.zip" %}
+
 #### Version 3.0
 
 **Release Notes:** Webhook, Partial Refund, Full Refund, [Click Here](release-notes.md#release-notes-v3.0-may-17-2026)

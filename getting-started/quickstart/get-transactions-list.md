@@ -27,26 +27,25 @@ Fetch a comprehensive list of all transactions linked to your account. Filter by
 
 ### Sandbox
 
-`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/transactions`&#x20;
+`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/transactions`&#x20;
 
 ### Production
 
-`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/web-checkout/transactions`&#x20;
+`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/transactions`&#x20;
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
 
 ## Query Parameters
 
-| merchantId | String | ✅ | Your merchant ID                           |
-| ---------- | ------ | - | ------------------------------------------ |
-| size       | Int    | ✅ | Number of records per page                 |
-| page       | Int    | ✅ | Page number                                |
-| searchText | String | ❌ | Search keyword for customer name, ID, etc. |
-| startDate  | Date   | ❌ | Start date filter (YYYY-MM-DD)             |
-| endDate    | Date   | ❌ | End date filter (YYYY-MM-DD)               |
-| status     | String | ❌ | Transaction status                         |
+| size         | Int    | ✅ | Number of records per page                 |
+| ------------ | ------ | - | ------------------------------------------ |
+| page         | Int    | ✅ | Page number                                |
+| search\_text | String | ❌ | Search keyword for customer name, ID, etc. |
+| start\_date  | Date   | ❌ | Start date filter (YYYY-MM-DD)             |
+| end\_date    | Date   | ❌ | End date filter (YYYY-MM-DD)               |
+| status       | String | ❌ | Transaction status                         |
 
 ## Success Response
 
@@ -55,10 +54,6 @@ A paginated list of transactions with customer, loan, and status details.
 ## Error Responses
 
 ```
-{
-  "error": "Merchant ID is required"
-}
-
 {
   "error": "Invalid API Key"
 }

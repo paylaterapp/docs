@@ -27,22 +27,22 @@ Quickly check if a customer is a registered [PayLater ](https://paylaterapp.com/
 
 ### Sandbox
 
-`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/shopper`&#x20;
+`GET https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/shopper`&#x20;
 
 ### Production
 
-`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/web-checkout/shopper`&#x20;
+`GET https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/shopper`&#x20;
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
 
 ## Query Parameters
 
-| merchantId   | String | ✅ | Your merchant ID        |
-| ------------ | ------ | - | ----------------------- |
-| mobileNumber | String | ✅ | Shopper's mobile number |
-| email        | String | ✅ | Shopper's email address |
+| Parameter      | Type   | Required | Description             |
+| -------------- | ------ | -------- | ----------------------- |
+| mobile\_number | String | ✅        | Shopper's mobile number |
+| email          | String | ✅        | Shopper's email address |
 
 ## Sample Success Response
 

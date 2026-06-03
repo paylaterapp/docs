@@ -34,19 +34,30 @@ The [PayLater ](https://paylaterapp.com/)API is your gateway to building custom,
 
 Whether you’re building a lightweight integration or a fully automated finance workflow, this section walks you through every step with clear endpoints, authentication guides, sample requests, and best practices.
 
-#### What You’ll Find Here:
+### What You’ll Find Here:
 
-* Generate Payment Link
-* Check Payment Status
-* Get Shopper Information
-* Get Transaction by Order ID
-* Get Transactions
-* Refund API
+OAuth 2.0 Client Credentials
+
+* [Retrieve Your OAuth Credentials](get-access-token-client-credentials.md)
+
+Process Transactions
+
+* [Generate Payment Link](generate-payment-link.md)
+* [Request to Pay (POS)](request-to-pay.md)
+* [Check Order Status](check-payment-status.md)
+* [Get Shopper Information](get-shopper-information.md)
+* [Get Transaction by Order ID](get-transaction-by-order-id.md)
+* [Get Transactions](get-transactions-list.md)
+* [Refund](refund-api.md)
+* [Partial Refund](partial-refund.md)
+* [Webhook Intergration](webhook-integration.md)
 * Error handling & response codes
 
 Start integrating and unlock the power of [PayLater ](https://paylaterapp.com/)— where flexibility meets finance, one API call at a time.
 
 ## 🔐Authentication
 
-All API requests must be authenticated using an `x-api-key` header. This key is issued to each merchant and must be included in all requests.
+All API requests must be authenticated using an `Authorization Bearer Token`. This key is issued to each merchant and must be included in all requests.\
+\
+To receive this Bearer Token use [Retrieve your OAuth Credentials](get-access-token-client-credentials.md) API.
 

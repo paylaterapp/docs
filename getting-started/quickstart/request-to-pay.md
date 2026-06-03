@@ -27,29 +27,28 @@ The Request to Pay API allows merchants to initiate a payment request directly f
 
 ### Sandbox
 
-`POST https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/request-to-pay`&#x20;
+`POST https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/request-to-pay`&#x20;
 
 ### Production
 
-`POST https://connect.paylaterapp.com/api/paylater/merchant-portal/request-to-pay`&#x20;
+`POST https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/request-to-pay`&#x20;
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
 * `Content-Type`: `application/json`
 
 ## Request Body
 
-<table data-header-hidden><thead><tr><th>Parameter</th><th>Type</th><th width="156">Required</th><th>Description</th></tr></thead><tbody><tr><td>merchant_id</td><td>String</td><td>✅</td><td>Unique ID assigned to your business</td></tr><tr><td>outlet_id</td><td>Number</td><td>✅</td><td>Storefront or outlet identifier</td></tr><tr><td>mobile_number</td><td>String</td><td>✅</td><td>Registered Customer mobile number</td></tr><tr><td>order_amount</td><td>Decimal</td><td>✅</td><td>Requested payment amount</td></tr><tr><td>merchant_order_reference</td><td>String</td><td>✅</td><td>Merchant  unique transaction identifier</td></tr><tr><td>expiry_minutes</td><td>Integer</td><td>✅</td><td>Expiry time in minutes</td></tr></tbody></table>
+<table><thead><tr><th>Parameter</th><th>Type</th><th width="156">Required</th><th>Description</th></tr></thead><tbody><tr><td>outlet_id</td><td>Number</td><td>✅</td><td>Storefront or outlet identifier</td></tr><tr><td>mobile_number</td><td>String</td><td>✅</td><td>Registered Customer mobile number</td></tr><tr><td>order_amount</td><td>Decimal</td><td>✅</td><td>Requested payment amount</td></tr><tr><td>merchant_order_reference</td><td>String</td><td>✅</td><td>Merchant  unique transaction identifier</td></tr><tr><td>expiry_minutes</td><td>Integer</td><td>✅</td><td>Expiry time in minutes</td></tr></tbody></table>
 
 ## Sample cURL
 
 ```
-curl --location 'https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/request-to-pay' \
---header 'x-api-key: a4f9feba-19dd-47b7-8d09-268a25c44a35' \
+curl --location 'https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/request-to-pay' \
 --header 'Content-Type: application/json' \
+--header 'Authorization: ae*****yy' \
 --data '{
-    "merchant_id": "138",
     "outlet_id": 1000000061,
     "mobile_number": "97451118021",
     "order_amount": 3015,

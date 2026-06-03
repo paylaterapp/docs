@@ -31,6 +31,14 @@ Empower your OpenCart online store with the PayLater OpenCart Plugin, a cutting-
 
 ## Download Plugin
 
+#### Version 3.0
+
+**Release Notes:** Authorization Security Update, [Click Here](release-notes.md#release-notes-v3.0-june-04-2026)
+
+**Plugin:**&#x20;
+
+{% file src="../../.gitbook/assets/paylater.ocmod (2).zip" %}
+
 #### Version 2.0
 
 **Release Notes:** Webhook, Partial Refund, Full Refund, [Click Here](release-notes.md#release-notes-v2.0-may-17-2026)

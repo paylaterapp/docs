@@ -27,28 +27,23 @@ Initiate a partial refund for a completed transaction using the Partial Refund A
 
 ### Sandbox
 
-`POST https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/web-checkout/refund/partial`
+`POST https://connect.uat.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/refund`
 
 ### Production
 
-`POST https://connect.paylaterapp.com/api/paylater/merchant-portal/web-checkout/refund/partial`
+`POST https://connect.paylaterapp.com/api/paylater/merchant-portal/v2/web-checkout/refund`
 
 ## Headers
 
-* `x-api-key`: Your API key (Required)
-
-## Query Parameters
-
-| Parameter            | Type   | Required | Description       |
-| -------------------- | ------ | -------- | ----------------- |
-| merchantId           | String | ✅        | Your merchant ID  |
-| transactionReference | String | ✅        | PayLater Order ID |
+* `Authorization`: Bearer \{{bearer\_token\}} Your Access Token (Required)
+* `Content-Type`: `application/json`
 
 ## Request Body
 
-<table data-header-hidden><thead><tr><th>Parameter</th><th>Type</th><th width="156">Required</th><th>Description</th></tr></thead><tbody><tr><td>amount</td><td>String</td><td>✅</td><td>Partial amount. Should be less than total order value</td></tr></tbody></table>
-
-## Sample cURL
+| Parameter | Type   | Required | Description                                           |
+| --------- | ------ | -------- | ----------------------------------------------------- |
+| order\_id | String | ✅        | Your merchant ID                                      |
+| amount    | String | ✅        | Partial amount. Should be less than total order value |
 
 ## Success Response
 
