@@ -37,7 +37,7 @@ Empower your OpenCart online store with the PayLater OpenCart Plugin, a cutting-
 
 **Plugin:**&#x20;
 
-{% file src="../../.gitbook/assets/paylater.ocmod (2).zip" %}
+{% file src="../../.gitbook/assets/paylater.ocmod.zip" %}
 
 #### Version 2.0
 
@@ -45,7 +45,7 @@ Empower your OpenCart online store with the PayLater OpenCart Plugin, a cutting-
 
 **Plugin:**&#x20;
 
-{% file src="../../.gitbook/assets/paylater.ocmod (1).zip" %}
+{% file src="../../.gitbook/assets/paylater.ocmod (1) (1).zip" %}
 
 #### Version 1.0
 
@@ -53,7 +53,7 @@ Empower your OpenCart online store with the PayLater OpenCart Plugin, a cutting-
 
 **Plugin:**&#x20;
 
-{% file src="../../.gitbook/assets/paylater.ocmod.zip" %}
+{% file src="../../.gitbook/assets/paylater.ocmod (1).zip" %}
 
 ## Installation
 

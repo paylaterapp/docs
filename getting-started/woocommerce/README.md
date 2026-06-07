@@ -37,7 +37,7 @@ Empower your WordPress online store with the PayLater WooCommerce Plugin, a cutt
 
 **Plugin:**&#x20;
 
-{% file src="../../.gitbook/assets/paylater_v4.0.zip" %}
+{% file src="../../.gitbook/assets/paylater_v4.0 (2).zip" %}
 
 #### Version 3.0
 

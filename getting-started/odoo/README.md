@@ -37,7 +37,7 @@ Empower your Odoo online store with the PayLater Odoo Plugin, a cutting-edge sol
 
 **Plugin:**&#x20;
 
-{% file src="../../.gitbook/assets/payment_paylater-v3.0.zip" %}
+{% file src="../../.gitbook/assets/payment_paylater-v3.0 (1).zip" %}
 
 #### Version 2.0
 

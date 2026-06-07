@@ -38,7 +38,7 @@ Whether youâ€™re building a lightweight integration or a fully automated finance
 
 OAuth 2.0 Client Credentials
 
-* [Retrieve Your OAuth Credentials](get-access-token-client-credentials.md)
+* [Retrieve Your OAuth Credentials](get-access-token.md)
 
 Process Transactions
 
@@ -59,5 +59,5 @@ Start integrating and unlock the power of [PayLater ](https://paylaterapp.com/)â
 
 All API requests must be authenticated using an `Authorization Bearer Token`. This key is issued to each merchant and must be included in all requests.\
 \
-To receive this Bearer Token use [Retrieve your OAuth Credentials](get-access-token-client-credentials.md) API.
+To receive this Bearer Token use [Retrieve your OAuth Credentials](get-access-token.md) API.
 

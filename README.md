@@ -53,6 +53,14 @@ Let’s dive in and get you up and running in no time.
 **Client Secret:** M6Xjszdtd8X2XivLmUvS9Pa7Hm0JeA6g\
 **OutLet ID:** 1000000061
 
+## Live Credentials
+
+Please log in to your Paylater Merchant Account and navigate to the settings section to access your integration credentials.
+
+Please ensure that your account has the necessary permissions to view these credentials. If you do not have access, you may need to update your user role settings.
+
+To Update user role proceed to user management and edit role and then select API credentials permission. Login again and then in setting their will ne tabintegration where youcan find these credetnails
+
 ## Test Shopper Accounts
 
 Please use the below test accounts. The OTP you can use is 1234
