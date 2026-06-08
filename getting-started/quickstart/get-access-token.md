@@ -19,7 +19,7 @@ layout:
     visible: true
 ---
 
-# 🔑 Get Access Token (Client Credentials)
+# 🔑 Get Access Token
 
 This API allows you to generate a secure, access token via the Keyclock Token Endpoint. The response includes a access token that need to call apis for **complete their** [**PayLater** ](https://paylaterapp.com/)**transaction**. Ideal for web and app checkouts where you want to initiate the [PayLater ](https://paylaterapp.com/)flow.
 
@@ -39,7 +39,7 @@ This API allows you to generate a secure, access token via the Keyclock Token En
 
 ## Request Body
 
-<table><thead><tr><th>Parameter</th><th>Type</th><th width="156">Required</th><th>Description</th></tr></thead><tbody><tr><td>grant_type</td><td>String</td><td>✅</td><td>client_credential   "keep it same"</td></tr><tr><td>client_id</td><td>Long</td><td>✅</td><td>client_id</td></tr><tr><td>client_secret</td><td>String</td><td>✅</td><td>client_secret</td></tr></tbody></table>
+<table><thead><tr><th>Parameter</th><th>Type</th><th width="156">Required</th><th>Description</th></tr></thead><tbody><tr><td>grant_type</td><td>String</td><td>✅</td><td>client_credentials   "keep it same"</td></tr><tr><td>client_id</td><td>Long</td><td>✅</td><td>client_id</td></tr><tr><td>client_secret</td><td>String</td><td>✅</td><td>client_secret</td></tr></tbody></table>
 
 ## Sample cURL
 
@@ -47,7 +47,7 @@ This API allows you to generate a secure, access token via the Keyclock Token En
 curl --location 'https://connect.uat.paylaterapp.com/auth/realms/api/protocol/openid-connect/token' \
 --header 'x-api-key: a4f9feba-19dd-47b7-8d09-268a25c44a35' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'grant_type=client_credential' \
+--data-urlencode 'grant_type=client_credentials' \
 --data-urlencode 'client_id={{merchant_client_id}}' \
 --data-urlencode 'client_secret={{merchant_client_secret}}'
 ```
