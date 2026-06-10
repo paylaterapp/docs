@@ -45,7 +45,6 @@ This API allows you to generate a secure, access token via the Keyclock Token En
 
 ```
 curl --location 'https://connect.uat.paylaterapp.com/auth/realms/api/protocol/openid-connect/token' \
---header 'x-api-key: a4f9feba-19dd-47b7-8d09-268a25c44a35' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=client_credentials' \
 --data-urlencode 'client_id={{merchant_client_id}}' \
